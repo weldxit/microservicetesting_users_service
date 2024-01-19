@@ -10,6 +10,13 @@ app.get('/', (req, res) => {
   res.send('Hello, Express!');
 });
 
+
+app.get('/from3002', (req, res) => {
+  res.send('Hello, 3002');
+});
+
+
+
 // Set the port for the server to listen on
 const PORT = process.env.PORT || 3002;
 
